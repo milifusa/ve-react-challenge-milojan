@@ -1,0 +1,44 @@
+/* Character.css */
+.character-card {
+  background-color: #2d2d2d; /* Fondo oscuro elegante */
+  border-radius: 10px; /* Bordes suavemente redondeados */
+  overflow: hidden; /* Contiene la imagen dentro de los bordes redondeados */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Efectos de transición para interactividad */
+}
+
+.character-card:hover {
+  transform: translateY(-5px); /* Eleva la tarjeta al pasar el mouse */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada en hover */
+}
+
+.character-image {
+  width: 100%;
+  object-fit: cover; /* Asegura que la imagen cubra el espacio disponible */
+}
+
+.character-name {
+  color: #f1c40f; /* Color amarillo brillante para destacar el nombre */
+  font-size: 1.2rem; /* Tamaño de fuente ajustado */
+  font-weight: bold;
+}
+
+.character-status {
+  display: flex;
+  align-items: center; /* Alinea el ícono de estado con el texto */
+}
+
+.status-badge {
+  margin-right: 8px; /* Espacio entre el badge y el texto */
+  display: flex;
+  align-items: center;
+}
+
+.species-info {
+  color: #adb5bd; /* Color gris claro para el texto adicional */
+}
+
+.character-location,
+.character-episode {
+  font-size: 0.85rem; /* Tamaño de fuente ajustado para claridad */
+  color: #d1d1d1; /* Color gris claro para consistencia */
+}

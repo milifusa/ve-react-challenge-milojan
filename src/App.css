@@ -1,0 +1,16 @@
+/* App.css */
+body {
+  background-color: #000; /* Fondo negro */
+  color: #ffffff; /* Texto blanco para buena legibilidad */
+  margin: 0; /* Elimina los márgenes predeterminados */
+  padding: 0; /* Elimina el padding predeterminado */
+  font-family: "Arial", sans-serif; /* Fuente limpia y legible */
+}
+
+.container {
+  background-color: transparent; /* Asegura que el contenedor no sobreponga el fondo negro */
+}
+
+h1 {
+  color: #f1c40f; /* Color amarillo brillante para títulos */
+}
